@@ -9,6 +9,7 @@ public class test {
     @ResponseBody
     @RequestMapping(value = "/test1")
     public String test1(){
+        System.out.println("11111111");
         return "第3次测试";
     }
 }
